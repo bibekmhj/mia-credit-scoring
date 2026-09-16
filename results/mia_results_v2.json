@@ -1,0 +1,255 @@
+{
+  "TaiwanCredit": {
+    "name": "TaiwanCredit",
+    "meta": {
+      "n": 29999,
+      "default_rate": 0.22117403913463782,
+      "n_features": 24
+    },
+    "baseline": {
+      "XGBoost": {
+        "train_auc": 0.97372,
+        "val_auc": 0.76921,
+        "auc_gap": 0.20452,
+        "threshold_auc": 0.55414,
+        "shadow_auc": 0.56987
+      },
+      "LightGBM": {
+        "train_auc": 0.95392,
+        "val_auc": 0.77006,
+        "auc_gap": 0.18387,
+        "threshold_auc": 0.54464,
+        "shadow_auc": 0.55534
+      },
+      "EBM": {
+        "train_auc": 0.8166,
+        "val_auc": 0.77975,
+        "auc_gap": 0.03686,
+        "threshold_auc": 0.50241,
+        "shadow_auc": 0.50295
+      }
+    },
+    "defenses": {
+      "rounding_k5": {
+        "model_val_auc": 0.74464,
+        "auc_cost": 0.02457,
+        "threshold_auc": 0.55377,
+        "shadow_auc": 0.56918
+      },
+      "rounding_k10": {
+        "model_val_auc": 0.76231,
+        "auc_cost": 0.0069,
+        "threshold_auc": 0.5496,
+        "shadow_auc": 0.5631
+      },
+      "perturbation_0.02": {
+        "model_val_auc": 0.76931,
+        "auc_cost": -0.0001,
+        "threshold_auc": 0.55344,
+        "shadow_auc": 0.56894
+      },
+      "perturbation_0.05": {
+        "model_val_auc": 0.76069,
+        "auc_cost": 0.00852,
+        "threshold_auc": 0.55227,
+        "shadow_auc": 0.56544
+      },
+      "regularization": {
+        "model_val_auc": 0.77926,
+        "auc_cost": -0.01005,
+        "threshold_auc": 0.50282,
+        "shadow_auc": 0.5032
+      },
+      "dp_lr_eps1": {
+        "epsilon": 1.0,
+        "model_val_auc": 0.67516,
+        "auc_cost": 0.09405,
+        "threshold_auc": 0.50128,
+        "shadow_auc": 0.50022
+      },
+      "dp_lr_eps5": {
+        "epsilon": 5.0,
+        "model_val_auc": 0.71977,
+        "auc_cost": 0.04944,
+        "threshold_auc": 0.49769,
+        "shadow_auc": 0.4979
+      },
+      "dp_lr_eps10": {
+        "epsilon": 10.0,
+        "model_val_auc": 0.72398,
+        "auc_cost": 0.04523,
+        "threshold_auc": 0.49704,
+        "shadow_auc": 0.49695
+      }
+    }
+  },
+  "GiveMeSomeCredit": {
+    "name": "GiveMeSomeCredit",
+    "meta": {
+      "n": 150000,
+      "default_rate": 0.06684,
+      "n_features": 10
+    },
+    "baseline": {
+      "XGBoost": {
+        "train_auc": 0.92749,
+        "val_auc": 0.86059,
+        "auc_gap": 0.0669,
+        "threshold_auc": 0.5014,
+        "shadow_auc": 0.51333
+      },
+      "LightGBM": {
+        "train_auc": 0.91981,
+        "val_auc": 0.86251,
+        "auc_gap": 0.0573,
+        "threshold_auc": 0.50281,
+        "shadow_auc": 0.5104
+      },
+      "EBM": {
+        "train_auc": 0.87354,
+        "val_auc": 0.86698,
+        "auc_gap": 0.00656,
+        "threshold_auc": 0.49862,
+        "shadow_auc": 0.50315
+      }
+    },
+    "defenses": {
+      "rounding_k5": {
+        "model_val_auc": 0.78634,
+        "auc_cost": 0.07425,
+        "threshold_auc": 0.50455,
+        "shadow_auc": 0.51074
+      },
+      "rounding_k10": {
+        "model_val_auc": 0.82772,
+        "auc_cost": 0.03287,
+        "threshold_auc": 0.50423,
+        "shadow_auc": 0.51052
+      },
+      "perturbation_0.02": {
+        "model_val_auc": 0.83081,
+        "auc_cost": 0.02978,
+        "threshold_auc": 0.5021,
+        "shadow_auc": 0.50919
+      },
+      "perturbation_0.05": {
+        "model_val_auc": 0.79381,
+        "auc_cost": 0.06678,
+        "threshold_auc": 0.50309,
+        "shadow_auc": 0.50918
+      },
+      "regularization": {
+        "model_val_auc": 0.86663,
+        "auc_cost": -0.00604,
+        "threshold_auc": 0.49889,
+        "shadow_auc": 0.50221
+      },
+      "dp_lr_eps1": {
+        "epsilon": 1.0,
+        "model_val_auc": 0.81165,
+        "auc_cost": 0.04894,
+        "threshold_auc": 0.49899,
+        "shadow_auc": 0.5022
+      },
+      "dp_lr_eps5": {
+        "epsilon": 5.0,
+        "model_val_auc": 0.81127,
+        "auc_cost": 0.04932,
+        "threshold_auc": 0.49883,
+        "shadow_auc": 0.5018
+      },
+      "dp_lr_eps10": {
+        "epsilon": 10.0,
+        "model_val_auc": 0.81095,
+        "auc_cost": 0.04964,
+        "threshold_auc": 0.49879,
+        "shadow_auc": 0.50177
+      }
+    }
+  },
+  "HomeCredit": {
+    "name": "HomeCredit",
+    "meta": {
+      "n": 307511,
+      "default_rate": 0.08072881945686496,
+      "n_features": 120
+    },
+    "baseline": {
+      "XGBoost": {
+        "train_auc": 0.88303,
+        "val_auc": 0.75589,
+        "auc_gap": 0.12714,
+        "threshold_auc": 0.51119,
+        "shadow_auc": 0.50701
+      },
+      "LightGBM": {
+        "train_auc": 0.85751,
+        "val_auc": 0.75383,
+        "auc_gap": 0.10368,
+        "threshold_auc": 0.50977,
+        "shadow_auc": 0.50598
+      },
+      "EBM_subsample_80K": {
+        "train_auc": 0.82997,
+        "val_auc": 0.72857,
+        "auc_gap": 0.1014,
+        "note": "EBM trained on 80K subsample",
+        "threshold_auc": 0.50712,
+        "shadow_auc": 0.505
+      }
+    },
+    "defenses": {
+      "rounding_k5": {
+        "model_val_auc": 0.69354,
+        "auc_cost": 0.06235,
+        "threshold_auc": 0.50861,
+        "shadow_auc": 0.51188
+      },
+      "rounding_k10": {
+        "model_val_auc": 0.73146,
+        "auc_cost": 0.02443,
+        "threshold_auc": 0.51037,
+        "shadow_auc": 0.50704
+      },
+      "perturbation_0.02": {
+        "model_val_auc": 0.73466,
+        "auc_cost": 0.02123,
+        "threshold_auc": 0.51054,
+        "shadow_auc": 0.5058
+      },
+      "perturbation_0.05": {
+        "model_val_auc": 0.69564,
+        "auc_cost": 0.06025,
+        "threshold_auc": 0.50858,
+        "shadow_auc": 0.50492
+      },
+      "regularization": {
+        "model_val_auc": 0.75426,
+        "auc_cost": 0.00163,
+        "threshold_auc": 0.50232,
+        "shadow_auc": 0.50085
+      },
+      "dp_lr_eps1": {
+        "epsilon": 1.0,
+        "model_val_auc": 0.60754,
+        "auc_cost": 0.14835,
+        "threshold_auc": 0.49948,
+        "shadow_auc": 0.50067
+      },
+      "dp_lr_eps5": {
+        "epsilon": 5.0,
+        "model_val_auc": 0.70676,
+        "auc_cost": 0.04913,
+        "threshold_auc": 0.50059,
+        "shadow_auc": 0.49871
+      },
+      "dp_lr_eps10": {
+        "epsilon": 10.0,
+        "model_val_auc": 0.73961,
+        "auc_cost": 0.01628,
+        "threshold_auc": 0.50091,
+        "shadow_auc": 0.499
+      }
+    }
+  }
+}

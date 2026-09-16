@@ -1,0 +1,26 @@
+{
+  "name": "mia-credit-scoring",
+  "version": "1.0.0",
+  "description": "Membership Inference Attacks on Credit Scoring Models - manuscript builder",
+  "main": "build_paper.js",
+  "scripts": {
+    "build": "node build_paper.js"
+  },
+  "dependencies": {
+    "docx": "^9.6.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "Bibek Maharjan",
+  "license": "MIT",
+  "private": false,
+  "keywords": [
+    "membership-inference",
+    "credit-scoring",
+    "differential-privacy",
+    "machine-learning",
+    "banking",
+    "research"
+  ]
+}
