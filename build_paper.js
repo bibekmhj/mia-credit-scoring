@@ -555,7 +555,7 @@ push(
 
   blank(),
   heading("Code Availability", HeadingLevel.HEADING_1, null),
-  para("All experimental code will be made available at a public repository upon acceptance. The main pipeline (run_experiments_v2.py) uses Python 3.11 with fixed random seeds. The diffprivlib patch (removing the deprecated multi_class parameter for sklearn 1.8.0 compatibility) is documented in the supplementary material.", { indent: false }),
+  para("All experimental code is publicly available at https://doi.org/10.5281/zenodo.22783058. The repository includes the main experiment pipeline (run_experiments_v2.py), the differential privacy experiment script (run_dp_only.py), the driver analysis script (driver_analysis.py), and the full results JSON. Python 3.11 with fixed random seeds (random_state=42) was used throughout. A compatibility patch for diffprivlib 0.6.6 with scikit-learn 1.8.0 is documented in docs/DIFFPRIVLIB_PATCH.md in the repository.", { indent: false }),
 
   blank(),
   heading("Funding", HeadingLevel.HEADING_1, null),

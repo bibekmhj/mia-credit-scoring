@@ -191,8 +191,27 @@ No consumer financial records or proprietary bank data were used in this study.
 
 ## Citation
 
-If you use this code, please cite the paper once it is published. A citation entry will be
-added here after acceptance.
+[![DOI](https://zenodo.org/badge/1372404733.svg)](https://doi.org/10.5281/zenodo.22783058)
+
+If you use this code or results, please cite:
+
+```
+Maharjan, B. (2026). Membership Inference Attacks on Credit Scoring Models: Empirical Risk
+Analysis and Differential Privacy Defenses Under U.S. Banking Privacy Requirements.
+Computers and Security (under review). https://doi.org/10.5281/zenodo.22783058
+```
+
+BibTeX:
+
+```bibtex
+@software{maharjan2026mia,
+  author  = {Maharjan, Bibek},
+  title   = {Membership Inference Attacks on Credit Scoring Models},
+  year    = {2026},
+  doi     = {10.5281/zenodo.22783058},
+  url     = {https://doi.org/10.5281/zenodo.22783058}
+}
+```
 
 ---
 
