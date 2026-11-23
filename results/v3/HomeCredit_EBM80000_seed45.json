@@ -1,0 +1,32 @@
+{
+ "seed": 45,
+ "baseline": {
+  "EBM": {
+   "train_auc": 0.8210302202739359,
+   "val_auc": 0.7471167593620344,
+   "gap": 0.07391346091190154,
+   "threshold": {
+    "auc": 0.5073130640625001,
+    "tpr_fpr0.1": 0.001375,
+    "tpr_fpr1": 0.01128125
+   },
+   "shadow_xgb": {
+    "auc": 0.508334328125,
+    "tpr_fpr0.1": 0.0014375,
+    "tpr_fpr1": 0.01165625
+   }
+  }
+ },
+ "defences": {},
+ "info": {
+  "n_member_train": 32000,
+  "n_nonmember": 20000,
+  "n_shadow_pool": 20000,
+  "n_features": 120,
+  "frac_rows_norm_gt5": 0.9855,
+  "seconds": 617.0135629177094
+ },
+ "dataset": "HomeCredit",
+ "n": 307511,
+ "default_rate": 0.08072881945686496
+}

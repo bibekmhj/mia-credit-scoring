@@ -1,0 +1,52 @@
+{
+ "seed": 46,
+ "baseline": {
+  "XGBoost": {
+   "train_auc": 0.9998489675018895,
+   "val_auc": 0.6533272100706311,
+   "gap": 0.34652175743125835,
+   "threshold": {
+    "auc": 0.5620198624999999,
+    "tpr_fpr0.1": 0.001125,
+    "tpr_fpr1": 0.013875
+   },
+   "shadow_xgb": {
+    "auc": 0.608799825,
+    "tpr_fpr0.1": 0.049625,
+    "tpr_fpr1": 0.062125
+   },
+   "shadow_matched": {
+    "auc": 0.608799825,
+    "tpr_fpr0.1": 0.049625,
+    "tpr_fpr1": 0.062125
+   }
+  },
+  "LightGBM": {
+   "train_auc": 0.9996665430746661,
+   "val_auc": 0.6680372807017544,
+   "gap": 0.3316292623729117,
+   "threshold": {
+    "auc": 0.5571824249999999,
+    "tpr_fpr0.1": 0.001375,
+    "tpr_fpr1": 0.016625
+   },
+   "shadow_xgb": {
+    "auc": 0.595551225,
+    "tpr_fpr0.1": 0.04075,
+    "tpr_fpr1": 0.054375
+   }
+  }
+ },
+ "defences": {},
+ "info": {
+  "n_member_train": 8000,
+  "n_nonmember": 5000,
+  "n_shadow_pool": 5000,
+  "n_features": 120,
+  "frac_rows_norm_gt5": 0.98825,
+  "seconds": 116.11167597770691
+ },
+ "dataset": "HomeCredit",
+ "n": 307511,
+ "default_rate": 0.08072881945686496
+}

@@ -1,41 +1,6 @@
-# Datasets - download separately, see data/README_DATA.md
 data/*.csv
+data/*.xls
 data/*.xlsx
-data/*.zip
-
-# Large build artifacts
-manuscript_v1.docx
-manuscript_v1.pdf
-*.docx
-*.pdf
-
-# Generated figure PNGs (regenerate from the plotting scripts)
-/tmp/fig*.png
-
-# Python
 __pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-.Python
-*.egg-info/
-dist/
-build/
-.env
-.venv
-venv/
-env/
-
-# Node
-node_modules/
-npm-debug.log*
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Editor
-.vscode/
-.idea/
-*.swp
-*.swo
+*.pyc
+.ipynb_checkpoints/

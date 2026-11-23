@@ -1,0 +1,22 @@
+
+=== HomeCredit: n=307511 features=120 default_rate=0.0807 defaults=24825
+  seed 42
+    shadows built [44s]
+    XGBoost                val=0.7374 gap=0.1920 thr=0.5233 xgbS=0.5221 matchS=0.5221  [57s]
+    LightGBM               val=0.7368 gap=0.1674 thr=0.5184 xgbS=0.5149 matchS=nan  [73s]
+  seed 43
+    shadows built [74s]
+    XGBoost                val=0.7509 gap=0.1777 thr=0.5201 xgbS=0.5228 matchS=0.5228  [134s]
+    LightGBM               val=0.7472 gap=0.1573 thr=0.5162 xgbS=0.5171 matchS=nan  [150s]
+  seed 44
+    shadows built [66s]
+    XGBoost                val=0.7389 gap=0.1895 thr=0.5218 xgbS=0.5230 matchS=0.5230  [75s]
+    LightGBM               val=0.7422 gap=0.1605 thr=0.5169 xgbS=0.5163 matchS=nan  [84s]
+  seed 45
+    shadows built [18s]
+    XGBoost                val=0.7362 gap=0.1977 thr=0.5226 xgbS=0.5198 matchS=0.5198  [21s]
+    LightGBM               val=0.7390 gap=0.1713 thr=0.5192 xgbS=0.5160 matchS=nan  [25s]
+  seed 46
+    shadows built [6s]
+    XGBoost                val=0.7473 gap=0.1843 thr=0.5180 xgbS=0.5192 matchS=0.5192  [10s]
+    LightGBM               val=0.7524 gap=0.1554 thr=0.5150 xgbS=0.5152 matchS=nan  [13s]
