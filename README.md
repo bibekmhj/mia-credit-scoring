@@ -9,7 +9,7 @@ Bibek Maharjan, Home & Auto Lending Technology, JPMorgan Chase & Co., Wilmington
 Status: manuscript prepared for submission to Discover Artificial Intelligence (Springer Nature). This is version 3 of the code and results.
 It replaces version 2, whose design had known problems (see "What changed from version 2").
 
-[![DOI](https://zenodo.org/badge/1372404733.svg)](https://doi.org/10.5281/zenodo.22783058)
+[![DOI](https://zenodo.org/badge/1372404733.svg)](https://doi.org/10.5281/zenodo.22783057)
 
 ## What this repository does
 
@@ -113,4 +113,4 @@ or employer data were used.
 ## Citation
 
 If you use this code or the results, please cite the manuscript when it is published, and the archived code record
-https://doi.org/10.5281/zenodo.22783058 (check that the record shows version 3).
+https://doi.org/10.5281/zenodo.22783057 (check that the record shows version 3).
